@@ -1,0 +1,23 @@
+2026-07-23 15:33:37,972 [INFO] Starting Baseline Benchmark Test...
+2026-07-23 15:33:37,973 [INFO] Raw File Size on Disk: 4,983,660,763 Bytes (4752.79 MB)
+2026-07-23 15:33:37,973 [INFO] ============================================================
+2026-07-23 15:33:37,974 [INFO] 1. Testing FULL dataset loading (130 columns)...
+2026-07-23 15:36:17,644 [INFO]    [SUCCESS] Loaded in 130.42 seconds
+2026-07-23 15:36:17,646 [INFO]    [RAM Usage] 11,947,355,091 Bytes (11393.89 MB)
+2026-07-23 15:36:18,666 [INFO] 2. Testing PRUNED dataset loading (4 columns)...
+2026-07-23 15:37:10,004 [INFO]    [SUCCESS] Loaded in 48.96 seconds
+2026-07-23 15:37:10,020 [INFO]    [RAM Usage] 742,539,908 Bytes (708.14 MB)
+2026-07-23 15:37:10,090 [INFO] ============================================================
+2026-07-23 15:37:10,091 [INFO]              BENCHMARK RESULTS & MEMORY ANALYSIS           
+2026-07-23 15:37:10,092 [INFO] ============================================================
+2026-07-23 15:37:10,092 [INFO] Raw CSV Disk Size : 4,983,660,763 Bytes (4752.79 MB)
+2026-07-23 15:37:10,093 [INFO] [Without Column Pruning - 130 Columns]
+2026-07-23 15:37:10,093 [INFO] Execution Time : 130.42 seconds
+2026-07-23 15:37:10,093 [INFO] RAM Allocated  : 11,947,355,091 Bytes (11393.89 MB)
+2026-07-23 15:37:10,094 [INFO] [With Column Pruning - 4 Columns]
+2026-07-23 15:37:10,094 [INFO] Execution Time : 48.96 seconds
+2026-07-23 15:37:10,095 [INFO] RAM Allocated  : 742,539,908 Bytes (708.14 MB)
+2026-07-23 15:37:10,095 [INFO] ============================================================
+2026-07-23 15:37:10,095 [INFO] Memory Saved     : 11,204,815,183 Bytes (10685.74 MB)
+2026-07-23 15:37:10,096 [INFO] Memory Reduction : 93.78%
+2026-07-23 15:37:10,096 [INFO] ============================================================
