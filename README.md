@@ -93,25 +93,43 @@ cd <repository-folder>
 
 ## Prerequisites & Setup
 
-<!-- TODO: Add prerequisites, required Python version, and dependency installation steps -->
-
 ### Prerequisites
-- *[Placeholder: Add required OS / System specs]*
-- *[Placeholder: Add required Python version, e.g., Python 3.8+]*
-- *[Placeholder: Add required external software, e.g., Java / Apache Spark binaries]*
+- **Operating System:** Windows 10/11, macOS, or Linux
+- **Python Version:** Python 3.8+ recommended
 
 ### Installation & Environment Setup
-```bash
-# [Placeholder: Environment setup command]
-# e.g., python -m venv venv
-# e.g., source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# [Placeholder: Dependency installation command]
-# e.g., pip install -r requirements.txt
-```
+1. **Create a Virtual Environment:**
+   ```bash
+   # Windows (Command Prompt)
+   python -m venv venv
+   
+   # Windows (PowerShell)
+   python -m venv venv
+   ```
+
+2. **Activate the Virtual Environment:**
+   ```bash
+   # Windows (Command Prompt)
+   venv\Scripts\activate
+   
+   # Windows (PowerShell)
+   .\venv\Scripts\activate.ps1
+   
+   # macOS / Linux
+   source venv/bin/activate
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ### Running the Analysis
 ```bash
-# [Placeholder: Script execution commands]
-# e.g., python pandas_baseline.py
-# e.g., python column_pruning_comparison.py
+# Execute memory optimization benchmark
+python column_pruning_comparison.py
+
+# Execute full market analysis baseline
+python pandas_baseline.py
+```
