@@ -1,14 +1,3 @@
-# IST3134-Big-Data-Analytics: Big Data Analytics For Video Game Market Performance Using Apache Spark: A Comparative Analysis with Pandas
-A group assignment for Mok Qi Yeng and Rachel Soh En Qi's 3rd year course: IST3134 - Big Data Analytics, titled Big Data Analytics For Video Game Market Performance Using Apache Spark: A Comparative Analysis with Pandas
-
-## Project Overview
-This repository provides a baseline data analytics solution designed to process and analyze video game market performance metrics using **Pandas**. Using structured data aggregation techniques, the project explores key revenue, pricing, and platform trends across large-scale video game market datasets.
-
-This directory focuses specifically on single-machine processing, establishing an analytical and computational baseline. To evaluate distributed big data capabilities on the same dataset, refer to the **Apache Spark** implementation located in the designated separate folder (`/pyspark` or adjacent project folder).
-
-
----
-
 ## Repository Structure
 Below is the directory tree for this repository:
 
