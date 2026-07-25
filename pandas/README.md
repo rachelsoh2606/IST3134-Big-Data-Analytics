@@ -1,4 +1,22 @@
-## Repository Structure
+# Video Game Market Analytics (Pandas Baseline Model)
+
+> **Module:** Comparative Single-Node Baseline 
+>
+> **Framework:** Python / Pandas 
+>
+> **Project:** IST3134 Big Data Analytics - Video Game Market Performance Analysis
+
+---
+
+## 📌 Module Overview & Baseline Role
+This directory contains the **traditional, single-machine baseline model** for the Video Game Market Performance Analysis project. 
+
+In this module, **Pandas** is utilized as a comparative benchmark against the distributed **Apache Spark (`/pyspark`)** solution. The primary purpose of this baseline is to:
+1. Establish standard analytical outputs (revenue rankings, pricing trends, and genre-platform aggregation).
+2. Measure single-node performance, execution timing, and memory overhead when processing multi-gigabyte datasets.
+3. Demonstrate the effectiveness and limitations of single-machine optimization techniques (such as **column pruning**) before scaling to distributed cluster processing.
+
+### Repository Structure
 Below is the directory tree for this repository:
 
 ```text
@@ -8,6 +26,7 @@ C:.
 │   pandas_baseline.py
 │   README.md
 │   structure.txt
+|   requirements.txt
 │   
 ├───data
 │       video_game_market.csv
@@ -59,13 +78,13 @@ Execution of `pandas_baseline.py` automatically generates structured logs and vi
 - `benchmark_performance.log`: Memory and execution time logs.
 
 
-## Getting Started & Cloning Notice
+## Getting Started 
 
 ### Cloning the Repository
 To clone this repository to your local machine, run:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/rachelsoh2606/IST3134-Big-Data-Analytics.git
 cd <repository-folder>
 ```
 
@@ -75,6 +94,8 @@ cd <repository-folder>
 > During execution of `git clone`, the terminal process may appear to pause or hang at:
 > ```text
 > Updating files: 100% (9/9), done.
+> — OR —
+> Resolving deltas: 100% (12/12), done.
 > ```
 > This occurs because Git is actively unpacking and checking out the large dataset file (`/data/video_game_market.csv`). **This behavior is expected.** Please allow the command to run uninterrupted until the terminal prompt returns.
 
