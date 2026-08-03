@@ -5,6 +5,8 @@
 > **Framework:** Python / Pandas 
 >
 > **Project:** IST3134 Big Data Analytics - Video Game Market Performance Analysis
+> 
+> **Author:** Rachel Soh En Qi
 
 ---
 
